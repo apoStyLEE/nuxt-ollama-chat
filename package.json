@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-ollama-app",
+  "private": true,
+  "type": "module",
+  "author": "Abdullah Uğraşkan @apoStyLEE",
+  "description": "Nuxt Ollama Chat",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.19",
+    "@heroicons/vue": "^2.1.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "highlight.js": "^11.9.0",
+    "marked": "^12.0.1",
+    "nuxt": "^3.10.3",
+    "ollama": "^0.4.9",
+    "vue": "^3.4.19",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.4"
+  }
+}
